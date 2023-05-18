@@ -1,3 +1,7 @@
 .text-red {
-    color: blueviolet;
+    color: rgb(226, 43, 43);
+}
+
+img{
+    width: 300px;
 }

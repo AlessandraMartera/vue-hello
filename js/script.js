@@ -6,10 +6,11 @@ createApp({
     data() {
       return {
         msg: 'Questo è il mio messaggio generato con il data',
-        miaClasse: 'text-red'
+        miaClasse: 'text-red',
+      // Bonus:
+      // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+        path: 'img/pathimg.jpg'
       }
     }
   }).mount('#container');
 
-// Bonus:
-// Aggiungere alla pagina un’immagine, presa anch’essa da un data.
