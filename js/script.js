@@ -6,6 +6,7 @@ createApp({
     data() {
       return {
         msg: 'Questo è il mio messaggio generato con il data',
+        miaClasse: 'text-red'
       }
     }
   }).mount('#container');
